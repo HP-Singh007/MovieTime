@@ -1,0 +1,138 @@
+<!-- -------------------------------------------------------------------------------- -->
+<!-- ------------------THIS IS CREATED BY : Harmanpreet Singh------------------------ -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titlE>MovieTime</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loading">
+        <a>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <p>Loading...</p>
+        </a>
+    </div>
+    <div id="loader">
+        <div id="ring"></div>
+    </div>
+    <!-- navigation bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><img src="logo.png" alt="Movie Time" id="largelogo"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <section>
+        <!-- search block -->
+        <img src="logo.png" alt="MovieTime" id="smalllogo">
+        <div class="search">
+            <input type="text" id="searchbar" placeholder="Enter Movie Name">
+            <input type="button" value="&telrec;" id="submitbtn">
+        </div>
+        <!-- initial cineman image -->
+        <div id="introblock"><img src="intro2.jpg" id="intro"></div>
+
+        <!-- clicked movie details -->
+        <div class="movie">
+            <div id="poster"></div>
+            <div class="content">
+                <h1>WELCOME</h1>
+                <div id="info">
+                    <span id="year"><p>2012</p></span>
+                    <span id="rating"><p><img src="star.png" alt="star"> 8.2</p></span>
+                    <span><p>PG-13</p></span>
+                    <span><p>143 min</p></span>
+                    <span><p>Action, Adventure, Sci-Fi</p></span>
+                </div>
+                <ul>
+                    <li>Released : </li>
+                    <li>Director : </li>
+                    <li>Actors : </li>
+                    <li>Writer : </li>
+                    <li>Country : </li>
+                    <li>Awards : </li>
+                    <li>Language : </li>
+                </ul>
+                <div class="plot">
+                    <span id="plotheading">Plot &gt</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam explicabo, magnam aperiam fugiat officia inventore quia incidunt facilis fugit libero ducimus iusto mollitia aut exercitationem. Explicabo distinctio tempora facilis dolor, quaerat vitae odit laboriosam?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- movie grid -->
+        <div class="movielist">
+            <div class="movieitem" id="movieitem-0">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+            <div class="movieitem" id="movieitem-1">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+            <div class="movieitem" id="movieitem-2">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+            <div class="movieitem" id="movieitem-3">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+            <div class="movieitem" id="movieitem-4">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+            <div class="movieitem" id="movieitem-5">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+            <div class="movieitem" id="movieitem-6">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+            <div class="movieitem" id="movieitem-7">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+            <div class="movieitem" id="movieitem-8">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+            <div class="movieitem" id="movieitem-9">
+                <img src="poster.jpg">
+                <h3>Movie name</h3>
+                <h6 class="imdb"></h6>
+            </div>
+        </div>
+    </section>
+    <div id="footer">
+        &copy Harmanpreet Singh
+    </div>
+    
+<script src="scr.js"></script>
+</body>
+</html>
